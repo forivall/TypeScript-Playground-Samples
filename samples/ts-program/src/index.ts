@@ -53,7 +53,7 @@ const makePlugin = (utils: PluginUtils) => {
           })
 
           // Note: You can skip all of the above, and use the shortcut:
-          // const {program, system, host} = sandbox.setupTSVFS()
+          // const {program, system, host} = await sandbox.setupTSVFS()
 
           // Let's print all of the functions in this file:
           const sourceFile = program.getSourceFile(sandbox.filepath);
